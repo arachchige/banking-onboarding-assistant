@@ -66,7 +66,7 @@ Web UI  ->  API (Java Spring Boot)
 
 **Tools and services (proposed)**
 - **LLM:** a model approved by the bank, ideally a private or self-hosted deployment. A public API is only used with redaction and approval.
-- **Embeddings and vector store:** an embeddings model plus a vector DB such as Pinecone or pgvector.
+- **Embeddings and vector store:** an embeddings model plus Pinecone as the vector DB.
 - **Backend:** Java Spring Boot (matches our existing stack). **Frontend:** React.
 - **Evaluation and tracing:** LangSmith or a similar tool.
 - **Development:** Cursor with project rules for consistent code (cite sources, no real customer data, `BigDecimal` for money).
